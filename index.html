@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport"
+          content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>WAF主控系统</title>
+    <meta name="keywords" content="waf主控,cdn,cdn主控系统,cdn主控,fikker主控,fikker,fikker系统,cdn系统"/>
+    <meta name="description" content="WAF主控系统是一款针对fikker CDN的节点控制系统，全新的系统架构和全新的蚂蚁金服UI设计，让您有新一般的体验。"/>
+    <link rel="stylesheet" media="all" href="static/css/index.css"/>
+    <script language="javascript" src="static/js/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" id="navbar">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span> <span
+                    class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <a class="navbar-brand" href=""><img height="30px" src="waf_logo_white.png"/></a>
+        </div>
+        <div class="collapse navbar-collapse " id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-nav-mobile">
+                <li class=""><a href="https://wafsys.mxact.com/http/page/verify_domain">授权系统</a></li>
+
+
+                <li class=""><a href="prices.html">价格</a></li>
+
+
+
+                <li class="dropdown company-more" id="about-us-dropdown">
+                        <a href="#" class="dropdown-toggle dropdown-toggle-mobile" data-toggle="dropdown" role="button"
+                        aria-haspopup="true"
+                         aria-expanded="false">关于我们</a>
+
+                    <ul class="dropdown-menu about-us-menu">
+                        <li class="about-item"><a href="#company.html"><h4 class="company-introduction"> 公司介绍 </h4>
+                            <p class="hidden-xs"></p></a></li>
+                        <li class="about-item"><a href="#"><h4 class="people-in-qiniu"> 关于我们 </h4>
+                            <p class="hidden-xs"></p></a></li>
+                        <li class="about-item"><a href="contact.html"><h4 class="contact-us"> 联系我们 </h4>
+                            <p class="hidden-xs"></p></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right navbar-nav-mobile">
+                <li class="need-signin ">
+                    <div class="actions">
+                        <a href="#" target="_blank" class="btn btn-hollow">购买</a>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script language="javascript">
+
+    $(document).ready(function () {
+        $(window).scroll(function () {
+
+            if ($(document).scrollTop() <= 0) {
+                $("#navbar").removeClass("nav-bg")
+            } else {
+                $("#navbar").addClass("nav-bg")
+            }
+        });
+    });
+
+    var classopen = true;
+    $(".dropdown").mouseover(function (e) {
+        $(this).addClass("open");
+        classopen = true;
+    });
+    $(".dropdown").mouseout(function (e) {
+        $(this).removeClass("open");
+
+    });
+
+    $(".navbar-toggle").click(function () {
+        if ($("#navbar-collapse").hasClass("in")) {
+            $("#navbar-collapse").removeClass("in");
+        } else {
+            $("#navbar-collapse").addClass("in");
+
+        }
+    })
+    $(".dropdown-toggle-mobile").click(function () {
+        if ($(this).parent().hasClass("open") && !classopen) {
+            $(this).parent().removeClass("open");
+        } else {
+            $(this).parent().addClass("open");
+            classopen = false;
+
+        }
+    })
+</script>
+<!--头部结束-->
+<div class="banners-slider">
+    <div class="jumbotron hero hero-enterpriseoncloud-index">
+        <div class="container">
+            <div class="middle-container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="banner-desc">
+                            <h1>WAF主控系统</h1>
+                            <h2>专注于Fikker节点的主控系统</h2>
+                            <p>新版主控系统上线，<span class="content-marked">蚂蚁金服UI、全新系统架构</span></p>
+                        </div>
+                        <a target="_blank"
+                           class="btn btn-lg btn-default btn-banner"
+                           href="https://wpa.qq.com/msgrd?v=3&amp;uin=3447286394&amp;site=qq&amp;menu=yes"
+                        >免费咨询</a>
+                        <a href="http://help.wafsys.com"  target="_blank" class="btn btn-lg btn-default btn-banner" >产品手册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" media="all" href="static/css/ind2.css"/>
+<!--banner结束-->
+<div class="bg-c1" style="">
+    <div class="ky-container">
+        <ul class="promotion-list">
+            <li><a href="ddos.html" target="_blank">
+                <div class="advertising-icon">
+                    <img src="static/picture/20180903img1.png"/>
+                </div>
+                <div class="advertising-text">
+                    <p class="title2"> 网站防御 <i class="advertising-icon-hot"></i></p>
+                    <p class="content">高防抗DDOS套餐、无视大规模CC攻击</p>
+                </div>
+            </a></li>
+            <li><a href="tcp.html">
+                <div class="advertising-icon">
+                    <img src="static/picture/20180903img2.png"/>
+                </div>
+                <div class="advertising-text">
+                    <p class="title2"> 游戏防护 </p>
+                    <p class="content">TCP、UDP 抗D防护套餐，支持所有端口</p>
+                </div>
+            </a></li>
+            <li><a href="jc.html">
+                <div class="advertising-icon">
+                    <img src="static/picture/20180903img3.png"/>
+                </div>
+                <div class="advertising-text">
+                    <p class="title2"> 域名防劫持 </p>
+                    <p class="content">防劫持DNS,单域名上千节点轮切，抗一切劫持。</p>
+                </div>
+            </a></li>
+            <li><a href="ip.html" target="_blank">
+                <div class="advertising-icon">
+                    <img src="static/picture/huodong.png" alt=""/>
+                </div>
+                <div class="advertising-text">
+                    <p class="title2"> 隐藏真实源iP </p>
+                    <p class="content">隐藏源IP，保证源IP永不泄露，源站IP不受DDos攻击影响</p>
+                </div>
+            </a></li>
+        </ul>
+    </div>
+</div>
+<div class="features features-solution" style="">
+    <div class="container">
+        <div class="intro">
+            <h2 class="title" style="height: 50px;line-height: 50px;font-size: 50px">
+                全新CDN主控 “靓<img style="height: 80px" src="logo.png" alt="">”点
+            </h2>
+            <p class="desc"> 专注与Fiiker的WAF主控系统} </p>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <img class="media-object media-object-index" width="120" alt="防DDOS"
+                         src="static/picture/icon-fast.png"/>
+                    <div class="caption caption-index">
+                        <h4 class="caption-title"> 全新架构设计 </h4>
+                        <p> 轻松应对 系统内部 大批量的域名管理与数据统计，主控系统采用   <b>Linux centos7</b>内存最多占用1.5G </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <img class="media-object media-object-index" width="120" alt="高效"
+                         src="static/picture/icon-productivity.png"/>
+                    <div class="caption caption-index">
+                        <h4 class="caption-title"> 批量操作设计 </h4>
+                        <p> 添加/删除 【域名】【源站】【缓存规则】【转向规则】，其中 添加源站 设计为 不限制数量！ </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <img class="media-object media-object-index" width="120" alt="低成本"
+                         src="static/picture/icon-lowcost.png"/>
+                    <div class="caption caption-index">
+                        <h4 class="caption-title"> 蚂蚁金服金融UI </h4>
+                        <p> 本次主控系统前端采用，<b>angular9-google</b> 与 <b>antdesign-alibaba 蚂蚁金服(支付宝)</b>UI设计  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail">
+                    <img class="media-object media-object-index" width="120" alt="可控"
+                         src="static/picture/icon-controllable.png"/>
+                    <div class="caption caption-index">
+                        <h4 class="caption-title"> 差价化市场开放 </h4>
+                        <p> 本系统发展方向为 插件化市场，可以 按照自己的需求，安装 【一键部署SSL】，【域名网页快照拍照】，【人脸验证】，【金盾防火墙对接】插件等等 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="features features-value">
+
+</div>
+
+
+
+<link rel="stylesheet" media="all" href="static/css/ind.css"/>
+<div class="hkweb6" style="margin-top:0px;">
+    <div class="tab">
+        <div class="hkweb6top" style="margin-left: -550px;">
+            <div class="title">
+                致力打造 CDN系统的 民用品牌
+            </div>
+            <div class="desc">
+                降低自建CDN平台的入门门槛，简单的上手搭建，智能的主控系统，是我们长期规划。
+            </div>
+        </div>
+        <div class="hkweb6top1">
+            <h2>致力打造安全防护行业NO.1 无视一切攻击</h2>
+            <h3>专业解决 棋牌、游戏、电商等行业被攻击大的痛点!攻击打不死、专接抗不住！</h3>
+        </div>
+        <div class="tab2_h" style="margin:0px auto;">
+            <ul class="tab-hd">
+
+
+                <li class="active">
+                    <div class="d1">
+                        依赖拓展实现WAF拦截
+                    </div>
+                    <div class="d3">
+                        <img src="static/picture/home_a01.png" width="105" height="105"/>
+                    </div>
+                    <div class="d5">
+                        简单的SQL注入，与XSS注入 规则匹配拦截。
+                    </div>
+                    <div class="d4">
+                        <a href="#" target="_blank">了解详情</a>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="d1">
+                        精准的流量计费
+                    </div>
+                    <div class="d3">
+                        <img src="static/picture/home_a02.png" width="105" height="105"/>
+                    </div>
+                    <div class="d5">
+                        计费更加精准！ 统计域名流量，Kb级计费单位。
+                    </div>
+                    <div class="d4">
+                        <a href="#" target="_blank">了解详情</a>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="d1">
+                        系统支持 多用户端
+                    </div>
+                    <div class="d3">
+                        <img src="static/picture/home_a03.png" width="105" height="105"/>
+                    </div>
+                    <div class="d5">
+                        目前系统自带 <b>web端</b>，支持 三网 小程序用户端(额外开发)。
+                    </div>
+                    <div class="d4">
+                        <a href="jc.html" target="_blank">了解详情</a>
+                    </div>
+                </li>
+
+
+                <li>
+                    <div class="d1">
+                        T+7更新周期
+                    </div>
+                    <div class="d3">
+                        <img src="static/picture/home_a04.png" width="105" height="105"/>
+                    </div>
+                    <div class="d5">
+                        保证7*12小时服务，平均7天为一周的系统更新。
+                    </div>
+                    <div class="d4">
+                        <a href="#" target="_blank">了解详情</a>
+                    </div>
+                </li>
+            </ul>
+            <div style="clear:both;float:none;"></div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".tab-hd li").mousemove(function (e) {
+        $(".tab-hd li").removeClass("active");
+        $(this).addClass("active");
+    })
+</script>
+<!--第七层-->
+
+<!--第九层-->
+
+<footer class="hidden-xs " style="padding-bottom:0px;">
+    <div class="container" style=" margin-bottom:0px;">
+        <div class="row ">
+            <div class="col-sm-9">
+                <div class="row grey-link">
+                    <div class="col-sm-3 col-xs-3">
+                        <dl>
+                            <dt>
+                                高防免备案CDN
+                            </dt>
+                            <dd>
+                                <a href="ddos.html">DDoS攻击防御</a>
+                            </dd>
+
+                        </dl>
+                    </div>
+                    <div class="col-sm-3 col-xs-3">
+                        <dl>
+                            <dt>
+                                解决方案
+                            </dt>
+
+                        </dl>
+                    </div>
+                    <div class="col-sm-3 col-xs-3">
+                        <dl>
+                            <dt>
+                                帮助与支持
+                            </dt>
+                            <dd>
+                                <a href="http://help.wafsys.com"> 帮助中心 </a>
+                            </dd>
+
+                        </dl>
+                    </div>
+                    <div class="col-sm-3 col-xs-3">
+                        <dl>
+                            <dt>
+                                关于我们
+                            </dt>
+
+                            <dd>
+                                <a href="#">联系我们</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 ">
+                <dl>
+                    <dt>
+                        联系方式
+                    </dt>
+                    <dd>
+                        <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=1eBT9G0x4SrPDB9jFdukWHBoPtITnlLm&jump_from=webapi"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="WAF生态主控授权用户" title="WAF生态主控授权用户"></a>
+                    </dd>
+                </dl>
+                <img width="90px" height="90px" src="qqgroup.png" alt="QQ群"/></a>
+            </div>
+        </div>
+        <div class="links grey-link grey-darker-link">
+            <div class="copyright grey-darker-color p-h-sm">
+                <center>&copy; 2018-2020 WafSys Technology co.,LTD.2020 All Rights Reserved. www.wafsys.com
+
+                    <a href="javascript:;" target="_blank" rel="nofollow"><span
+                            class="icon icon-aq">陕ICP备19013651号-2</span></a><br>
+                    <a >《中华人民共和国增值电信业务经营许可证》</a><br>
+                </center>
+            </div>
+        </div>
+    </div>
+</footer>
+<footer class="visible-xs footer-mobile ">
+    <div class="container">
+
+        <div class="links grey-link grey-darker-link">
+            <ul class="">
+                <li>
+                    <div class="copyright grey-darker-color">
+                        用户QQ群:805142149
+                    </div>
+                </li>
+                <li>
+                    <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=1eBT9G0x4SrPDB9jFdukWHBoPtITnlLm&jump_from=webapi"><img border="0" src="https://pub.idqqimg.com/wpa/images/group.png" alt="WAF生态主控授权用户" title="WAF生态主控授权用户"></a>
+                </li>
+            </ul>
+
+            <div class="copyright grey-darker-color p-h-sm d-none">
+                Copyright  &copy; 2020 www.wafsys.com
+            </div>
+            <div class="icp grey-darker-color">
+                <a href="javascript:;" target="_blank" rel="nofollow"><span
+                        class="icon icon-aq"> ICP</span></a> <br>
+                <a target="_blank">《中华人民共和国增值电信业务经营许可证》</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript">
+    // (function () {
+    //     var _caca = document.createElement("script");
+    //     _caca.setAttribute("id", "_caca_sc")
+    //     _caca.src = 'https://js.cacakefu.com/cacakefu.js';
+    //     _caca.innerHTML = "7d6d9bca3b5f6cc986fe4f3809ed2f17"
+    //     var s = document.getElementsByTagName("script")[0];
+    //     s.parentNode.insertBefore(_caca, s);
+    // })();
+</script>
+</body>
+</html>

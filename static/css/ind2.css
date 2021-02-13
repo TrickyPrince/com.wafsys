@@ -1,0 +1,35 @@
+.section{
+    padding-top:20px;
+    padding-bottom: 15px;
+}
+.title-block {
+    text-align: center; padding-left:10px; padding-right:10px;
+}
+    .title-block h3 { font-size:26px;font-weight:bold; line-height:30px;
+    }
+     .title-block p { font-size:20px;
+    }
+     .bg-c1{background:#f5f6f6;width:100%}
+     .promotion-list li{display:inline-block;white-space:nowrap;width:24%;height:140px;vertical-align:top;box-sizing:border-box;padding-top:4px;padding-left:15px;position:relative}
+.promotion-list li:hover .advertising-icon{transform:translate3d(0,-2px,0)}
+.promotion-list li .advertising-text, .advertising-icon{display:inline-block;vertical-align:middle}
+.advertising-icon{width:130px;height:130px;margin-right:10px;transition:all .2s linear}
+.advertising-icon img{display:block;max-width:100%}
+.promotion-list li .advertising-text{max-width:50%}
+.promotion-list li .advertising-text .title2{font-size:16px;color:#333;padding-bottom:5px;transition:all .2s linear;font-weight:500}
+.promotion-list li .advertising-text .content{font-size:14px;color:#666;word-break:break-all;white-space:normal}
+.advertising-icon-hot{width:29px;height:13px;display:inline-block;background-image:url(../image/index20160806img1.png);vertical-align:top;background-position:-82px 0}
+.promotion-list li .advertising-text .title i{margin-left:5px;margin-top:-3px}
+.title em{color:#ff9102;transition:all .2s linear}
+.promotion-list li:hover .advertising-text .title2, .promotion-list li:hover .advertising-text .title2{color:#009de0}
+@media (max-width: 768px) {
+    .title-block h3 {
+        font-size: 20px;
+    }
+
+    .title-block p {
+        font-size: 16px;
+    }
+    .bg-c1 { display:none;
+    }
+}

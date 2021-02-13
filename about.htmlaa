@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /> 
+  <title>关于我们_WAF科技_高防cdn</title> 
+  <meta name="keywords" content="WAF科技cdn,高防cdn,免备案cdn,香港cdn,网站加速,cdn加速,,cdn防护,防cc,防ddos,防攻击,网站安全防护,高速cdn加速,游戏盾,安全盾,免费云加速,云加速,云防御" /> 
+  <meta name="description" content="WAF科技旗下高防cdn平台(cdn.gfvps.cn),WAF科技cdn,有高防cdn,香港cdn,香港cdn,网站加速,cdn加速,防cc,防ddos,防攻击,网站安全防护,网站防护,高速cdn加速,游戏盾,安全盾,免费云加速,云加速,云防御,cdn防护等,是一家大型专业的cdn提供平台" />  
+  <link rel="stylesheet" media="all" href="static/css/index.css" /> 
+  <script language="javascript" src="static/js/jquery-1.7.1.min.js"></script> 
+ </head> 
+ <body> 
+  <nav class="navbar navbar-default" id="navbar"> 
+   <div class="container"> 
+    <div class="navbar-header"> 
+     <button type="button" class="navbar-toggle collapsed"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     <a class="navbar-brand" href="index.html"><img width="100" src="static/image/logo.png" /></a> 
+    </div> 
+    <div class="collapse navbar-collapse " id="navbar-collapse"> 
+     <ul class="nav navbar-nav navbar-nav-mobile"> 
+      <li class=""><a href="index.html">首页</a></li> 
+      <li class="dropdown" id="spaces-dropdown"> <a href="#" class="dropdown-toggle dropdown-toggle-mobile">产品</a> 
+       <ul class="dropdown-menu services-menu services-menu-multicols"> 
+        <ul class="services-col-left"> 
+         <li class="menu-title hidden-xs">高防CDN</li> 
+         <li class="service"> <a href="ddos.html"> <h4 class="kodo"> DDoS攻击防御</h4> <p>隐藏源IP、T级真实带宽ddos清洗、全面支持 TCP/UDP/HTTP/HTTPS 协议 </p> </a> </li> 
+         <li class="service"> <a href="cc.html"> <h4 class="private_cloud_kodo">零误伤高防CC<i class="new-icon"></i></h4> <p>自建Nginx零误伤抗CC、百万并发秒清洗，无需验证</p> </a> </li> 
+         <li class="service"> <a href="jc.html"> <h4 class="fusion">防劫持CDN</h4> <p>自建DNS系统、配套动态节点IP库，可100%预防劫持</p> </a> </li> 
+         <li class="service"> <a href="ip.html"> <h4 class="qvm">防源IP被墙<i class="new-icon"></i></h4> <p>上万个CDN节点抗IP被墙、五分钟自动切IP、保证稳定</p> </a> </li> 
+         <li class="service"> <a href="301.html"> <h4 class="sms">域名被墙301跳转</h4> <p>抗攻击、抗投诉、稳定的免备案被墙301跳转！</p> </a> </li> 
+         <li class="service"> <a href="jiasu.html"> <h4 class="kirk">免备案CDN加速 </h4> <p>香港CN2线路、100M独享带宽加速，国内外秒开！</p> </a> </li> 
+        </ul> 
+       </ul> </li> 
+      <li class="dropdown" id="supports-dropdown"> <a href="#" class="dropdown-toggle dropdown-toggle-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">解决方案</a> 
+       <ul class="dropdown-menu supports-menu"> 
+        <li class="supports"> <a target="_blank" href="game.html"> <h4 class="developer">游戏防御方案</h4> <p class="hidden-xs"></p></a></li> 
+        <li class="supports"> <a target="_blank" href="web.html"> <h4 class="developer">网站防御方案</h4> <p class="hidden-xs"></p></a></li> 
+        <li class="supports"> <a target="_blank" href="jinrong.html"> <h4 class="developer">金融防御方案</h4> <p class="hidden-xs"></p></a></li> 
+        <li class="supports"> <a target="_blank" href="dianshang.html"> <h4 class="developer">支付防御方案</h4> <p class="hidden-xs"></p></a></li> 
+       </ul> </li> 
+      <li class=""><a href="prices.html">价格</a></li> 
+      <li class="dropdown company-more" id="news-dropdown"> <a href="#" class="dropdown-toggle dropdown-toggle-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新闻动态</a> 
+       <ul class="dropdown-menu about-us-menu"> 
+        <li class="about-item"><a href="1.html"> <h4 class="company-introduction"> 公司动态 </h4> <p class="hidden-xs"></p></a></li> 
+        <li class="about-item"><a href="2.html"> <h4 class="people-in-qiniu"> 行业资讯 </h4> <p class="hidden-xs"></p></a></li> 
+        <li class="about-item"><a href="3.html"> <h4 class="social-invite"> 技术知识 </h4> <p class="hidden-xs"></p></a></li> 
+       </ul> </li> 
+      <li class="dropdown company-more" id="about-us-dropdown"> <a href="#" class="dropdown-toggle dropdown-toggle-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们</a> 
+       <ul class="dropdown-menu about-us-menu"> 
+        <li class="about-item"> <a href="company.html"> <h4 class="company-introduction"> 公司介绍 </h4> <p class="hidden-xs"></p></a></li> 
+        <li class="about-item"> <a href=""> <h4 class="people-in-qiniu"> 关于我们 </h4> <p class="hidden-xs"></p></a></li> 
+        <li class="about-item"><a href="contact.html"> <h4 class="contact-us"> 联系我们 </h4> <p class="hidden-xs"></p></a></li> 
+       </ul> </li> 
+     </ul> 
+     <ul class="nav navbar-nav navbar-right navbar-nav-mobile"> 
+      <li class="need-signin "> 
+       <div class="actions"> 
+        <a href="/user/login.php" target="_blank" class="btn btn-hollow">登录</a> 
+        <a href="/user/register.php" target="_blank" class="btn btn-hollow">注册</a> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </div> 
+  </nav> 
+  <script language="javascript">
+	
+	$(document).ready(function() {
+		$(window).scroll(function() {
+	 
+			if ($(document).scrollTop()<=0){
+			   $("#navbar").removeClass("nav-bg")
+			}
+			else{$("#navbar").addClass("nav-bg")}
+		});
+	});
+	
+	var classopen = true;
+	$(".dropdown").mouseover(function(e){
+	    $(this).addClass("open");
+	    classopen = true;
+	});
+	$(".dropdown").mouseout(function(e){
+	    $(this).removeClass("open");
+	    
+	});
+	
+	$(".navbar-toggle").click(function () {
+	    if ($("#navbar-collapse").hasClass("in")) {
+	        $("#navbar-collapse").removeClass("in");
+	    }
+	    else {
+	        $("#navbar-collapse").addClass("in");
+
+	    }
+	})
+	$(".dropdown-toggle-mobile").click(function ()
+	{
+	    if ($(this).parent().hasClass("open") && !classopen)
+        {
+	        $(this).parent().removeClass("open");
+	    }
+	    else
+	    {
+	        $(this).parent().addClass("open"); classopen = false;
+
+	    }
+	})
+	</script> 
+  <!--头部结束--> 
+  <link rel="stylesheet" href="static/css/about.css" /> 
+  <div class="aboutwe-main1"></div> 
+  <div class="aboutwe-main3"> 
+   <div class="aboutwe-main3-son"> 
+    <img src="static/picture/about1.png" class="tu1" /> 
+    <span class="gsjj"> <h2>公司简介 &gt; &gt;</h2> <h3>COMPANY &nbsp;&nbsp; PROFILE</h3> </span> 
+    <img src="static/picture/about2.png" class="tu3" /> 
+    <div class="aboutwe-main3-right"> 
+     <h2>贵州WAF科技有限公司</h2> 
+     <p class="p1">贵州WAF科技有限公司是一家为互联网安全诞生的公司， <br />主营：网络安全，网络防御，网站加速负载均衡，抗DDOS清洗等服务 。我公司目前联合国内各大机房开展深度合作，目前我们拥有超过1000G 防御体系， T级安全防御，适合各类网站程序和APP的安全防御策略和加速服务。<br />致力于做TOP的IDC运营商和网络安全提供商，是WAF科技永恒发展的规划与目标，不断提升的技术能力与服务品质是WAF科技为之坚持的核心竞争力！<br /> 专业专心秉品质、全心全意为客户”,是WAF科技秉承客户至上、服务至上的经营理念。以卓越的服务品质、专业的技术服务实力、专业的客户服务团队确保客户业务快速、高效、安全运行,又以稳固与发展、 求实与创新的精神,使客户享受信息科技发展新成果的同时不断获得收益。 </p> 
+     <p class="p2"> WAF科技独家开发Nginx抗CC系统，无视一切CC攻击，零误伤抗各种变异CC，自建DNS系统，动态轮训抗劫持，防源IP被墙，服务者上千个东南亚客户。 </p> 
+    </div> 
+    <div class="aboutwe-main3-left"> 
+     <div class="h2">
+      机房介绍 &gt; &gt; 
+     </div> 
+     <h3>Machine room introduction</h3> 
+     <h2>走创新路线 &nbsp; 打造品质服务</h2> 
+     <h4>Take the innovative route tobuild quality male package</h4> 
+    </div> 
+    <div class="zhuangtu"> 
+     <img src="static/picture/aboutwetu4.png" /> 
+     <img src="static/picture/aboutwetu5.png" /> 
+     <img src="static/picture/aboutwetu6.png" /> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="aboutwe-main4"> 
+   <div class="aboutwe-main4-son"> 
+    <div class="biaoti2"> 
+     <h3>企业文化</h3> 
+     <p>文化塑造人生, 理念创造价值</p> 
+    </div> 
+    <ul> 
+     <li class="aboutwe-main4-son1"> <img src="static/picture/abotwetup6.png" /> <h3>目标</h3> <p>WAF科技励志成为安全技术较好的IDC服务商和互联网安全提供商</p> </li> 
+     <li> <img src="static/picture/abotwetup7.png" /> <h3>愿景</h3> <p>让天下没有难做的防御！</p> </li> 
+     <li> <img src="static/picture/abotwetup8.png" /> <h3>价值观</h3> <p>诚信严明、以义取利、检查到底</p> </li> 
+     <li> <img src="static/picture/abotwetup9.png" /> <h3>发展理念</h3> <p>技术引领是我们立身之本！交付价值是我们发展之本！集体奋斗是我们成功之本！</p> </li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div style="clear:both;"></div> 
+  <footer class="hidden-xs " style="padding-bottom:0px;"> 
+   <div class="container" style=" margin-bottom:0px;"> 
+    <div class="row "> 
+     <div class="col-sm-9"> 
+      <div class="row grey-link"> 
+       <div class="col-sm-3 col-xs-3"> 
+        <dl> 
+         <dt>
+           高防免备案CDN 
+         </dt> 
+         <dd> 
+          <a href="ddos.html">DDoS攻击防御</a> 
+         </dd> 
+         <dd> 
+          <a href="cc.html">零误伤高防CC</a> 
+         </dd> 
+         <dd> 
+          <a href="jc.html">防劫持CDN</a> 
+         </dd> 
+         <dd> 
+          <a href="ip.html">防源IP被墙</a> 
+         </dd> 
+         <dd> 
+          <a href="301.html">域名被墙301跳转</a> 
+         </dd> 
+         <dd> 
+          <a href="jiasu.html">免备案CDN加速 </a> 
+         </dd> 
+        </dl> 
+       </div> 
+       <div class="col-sm-3 col-xs-3"> 
+        <dl> 
+         <dt>
+           解决方案 
+         </dt> 
+         <dd> 
+          <a href="game.html">游戏防御方案</a> 
+         </dd> 
+         <dd> 
+          <a href="web.html">网站防御方案</a> 
+         </dd> 
+         <dd> 
+          <a href="jinrong.html">金融防御方案</a> 
+         </dd> 
+         <dd> 
+          <a href="dianshang.html">电商防御方案</a> 
+         </dd> 
+        </dl> 
+       </div> 
+       <div class="col-sm-3 col-xs-3"> 
+        <dl> 
+         <dt>
+           帮助与支持 
+         </dt> 
+         <dd> 
+          <a href="#"> 帮助中心 </a> 
+         </dd> 
+         <dd> 
+          <a href="#">备案服务 </a> 
+         </dd> 
+         <dd> 
+          <a href="#">工单服务 </a> 
+         </dd> 
+        </dl> 
+       </div> 
+       <div class="col-sm-3 col-xs-3"> 
+        <dl> 
+         <dt>
+           关于我们 
+         </dt> 
+         <dd> 
+          <a href="company.html">公司介绍</a> 
+         </dd> 
+         <dd> 
+          <a href="index2.html">新闻动态</a> 
+         </dd> 
+         <dd> 
+          <a href="about.html">关于我们</a> 
+         </dd> 
+         <dd> 
+          <a href="contact.html">联系我们</a> 
+         </dd> 
+        </dl> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="col-sm-3 "> 
+      <dl> 
+       <dt>
+         联系方式 
+       </dt> 
+       <dd style="color:#ADAEA9">
+         咨询热线：400-816-8793 
+       </dd> 
+       <dd style="color:#ADAEA9">
+         交流群：425411272 
+       </dd> 
+      </dl> 
+      <img src="./weixin.jpg" alt="WAF科技微信公众号" /></a> 
+     </div> 
+    </div> 
+    <div class="links grey-link grey-darker-link"> 
+     <div class="copyright grey-darker-color p-h-sm">
+       <center>&copy; 2018-2020 Guizhou Shujue Technology co.,LTD.2019 All Rights Reserved.  贵州WAF科技有限公司  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?7c375689c68b076bd8361ec4b5ea136c";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+      <a href="javascript:;" target="_blank" rel="nofollow"><span class="icon icon-aq">黔ICP备17001567号-1</span></a><br> 
+	  <a href="https://tsm.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%E8%B4%B5%E5%B7%9E%E6%95%B0%E6%8E%98%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&code=H39AM&type=xuke" target="_blank">《中华人民共和国增值电信业务经营许可证》IDC/ISP/CDN：B1-20201536</a><br>
+	  	  <center><a href="https://www.gfvps.cn/" target="_blank"><img src="./sjkj.jpg" alt="WAF科技" /></a>
+<a href="https://credit.cecdc.com/CX20161223252617324751.html" target="_blank"><img src="./cxrz.jpg" alt="诚信认证" border="0" /></a>
+<a href="https://v.yunaq.com/certificate?domain=cdn.gfvps.cn&from=label&code=90020" target="_blank"><img src="./aqkx.jpg" alt="安全可信" /></a>
+<a id="_pingansec_bottomimagesmall_shiming" target="_blank" href="//si.trustutn.org/info?sn=232200427039522522283&certType=1"><img src="//v.trustutn.org/images/cert/realname_small_img.png"/></a>
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <footer class="visible-xs footer-mobile "> 
+   <div class="container"> 
+    <div class="collapse-wrapper "> 
+     <ul class="panel-group" id="accordion"> 
+      <li class="panel panel-info"> 
+       <div class="panel-heading panel-sort"> 
+        <a class="sort-name" data-toggle="collapse" data-parent="#accordion" href="#collapseProduct">产品/服务</a> 
+       </div> 
+       <div id="collapseProduct" class="panel-collapse collapse collapse-menu in"> 
+        <div class="panel-body panel-menu"> 
+         <div class="menu-unit"> 
+          <a href="ddos.html"><h4>DDoS攻击防御</h4></a> 
+         </div> 
+         <div class="menu-unit"> 
+          <a href="cc.html"><h4>零误伤高防CC</h4></a> 
+         </div> 
+         <div class="menu-unit"> 
+          <a href="jc.html"><h4>防劫持CDN</h4></a> 
+         </div> 
+         <div class="menu-unit"> 
+          <a href="ip.html"><h4>防源IP被墙</h4></a> 
+         </div> 
+         <div class="menu-unit"> 
+          <a href="301.html"><h4>域名被墙301跳转</h4></a> 
+         </div> 
+         <div class="menu-unit"> 
+          <a href="jiasu.html"><h4>免备案CDN加速</h4></a> 
+         </div> 
+        </div> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="links grey-link grey-darker-link"> 
+     <ul class=""> 
+      <li> 
+       <div class="copyright grey-darker-color">
+         &copy; 2019 GfVps.cn 
+       </div></li> 
+      <li><a href="about.html">关于我们</a></li> 
+      <li><a href="contact.html">联系我们</a></li> 
+     </ul> 
+     <div class="report-call grey-darker-color "> 
+      <span>24 小时互联网违法和不良信息举报：举报QQ：302775121</span> 
+     </div> 
+     <div class="copyright grey-darker-color p-h-sm d-none">
+       &copy; 2018-2020 Copyright &copy; Guizhou Shujue Technology co.,LTD.2019 All Rights Reserved. 贵州WAF科技有限公司 
+     </div> 
+     <div class="icp grey-darker-color"> 
+      <a href="javascript:;" target="_blank" rel="nofollow"><span class="icon icon-aq"> 黔ICP备17001567号-1</span></a> <br> 
+	  <a href="https://tsm.miit.gov.cn/dxxzsp/xkz/xkzgl/resource/qiyesearch.jsp?num=%E8%B4%B5%E5%B7%9E%E6%95%B0%E6%8E%98%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&code=H39AM&type=xuke" target="_blank">《中华人民共和国增值电信业务经营许可证》IDC/ISP/CDN：B1-20201536</a>
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script type="text/javascript">
+    (function() {
+        var _caca = document.createElement("script");
+        _caca.setAttribute("id","_caca_sc")
+        _caca.src = 'https://js.cacakefu.com/cacakefu.js';
+        _caca.innerHTML = "7d6d9bca3b5f6cc986fe4f3809ed2f17"
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(_caca, s);
+    })();
+</script>  
+ </body>
+</html>

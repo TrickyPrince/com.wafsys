@@ -1,0 +1,341 @@
+.aboutwe-main2-son,
+.aboutwe-main3-son,
+.aboutwe-main4-son,
+.aboutwe-main5-son,
+.aboutwe-main6-son {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.biaoti2 {
+  text-align: center;
+}
+.biaoti2 h3 {
+  font-size: 32px;
+  font-weight: normal;
+}
+.biaoti2 p {
+  color: #999;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.aboutwe-main1 {
+  width: 100%;
+  height: 438px;
+  background: url(../image/aboutbanner.jpg) no-repeat top center;
+}
+.aboutwe-main2 {
+  width: 100%;
+  background-color: #fff;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 {
+  overflow: hidden;
+  margin-left: 100px;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li {
+  float: left;
+  width: 249px;
+  height: 100px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 80px;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li span {
+  display: inline-block;
+  width: 248px;
+  height: 80px;
+  border-bottom: 1px solid #dbe0e5;
+  border-right: 1px solid #dbe0e5;
+  background: #f5f8fa;
+  box-shadow: 2px 2px 4px 0 rgba(132,132,132,.2);
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li span a {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li.active {
+  background: url(../image/index20160806img1.png) no-repeat center center;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li.active span {
+  background: none;
+  border: none;
+
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li.active span a {
+  color: #fff;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li:hover {
+  background: url(../image/index20160806img1.png) no-repeat center center;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li:hover span {
+  background: none;
+  border: none;
+}
+.aboutwe-main2 .aboutwe-main2-son .aboutwe-main2-son1 li:hover span a {
+  color: #fff;
+}
+.aboutwe-main3 {
+  height: 904px;
+}
+.aboutwe-main3 .aboutwe-main3-son {
+  overflow: hidden;
+  height: 100%;
+  padding: 55px 0 60px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.aboutwe-main3 .aboutwe-main3-son .tu1 {
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+}
+.aboutwe-main3 .aboutwe-main3-son .gsjj {
+  position: absolute;
+  left: 370px;
+}
+.aboutwe-main3 .aboutwe-main3-son .gsjj h2 {
+  margin-top: 70px;
+  font-weight: normal;
+  color: #0af;
+  font-size: 28px;
+}
+.aboutwe-main3 .aboutwe-main3-son .gsjj h3 {
+  margin-top: 26px;
+  font-weight: normal;
+  color: #999;
+  font-size: 20px;
+}
+.aboutwe-main3 .aboutwe-main3-son .tu3 {
+  position: absolute;
+  top: 230px;
+  left: 169px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right {
+  width: 600px;
+  height: 580px;
+  position: absolute;
+  right: 0px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right h2 {
+  font-weight: normal;
+  font-size: 24px;
+  color: #0af;
+  margin-top: 30px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right .p1,
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right .p2 {
+  color: #333;
+  font-size: 14px;
+  margin-top: 38px;
+  text-align: left;
+  line-height: 30px;
+  padding: 0 6px;
+  font-family: iYB2Hei;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left {
+  height: 161px;
+  width: 550px;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left .h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #0af;
+  text-align: right;
+
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left h3,
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left h4 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #999;
+  margin-top: 10px;
+  text-align: right;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left h3{
+  border-bottom: 1px solid #dbe0e5;
+  height: 40px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left h2 {
+  color: #333;
+  margin-top: 15px;
+  text-align: right;
+  font-size: 30px;
+}
+.aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-left h4 {
+  margin-top: 10px;
+}
+.aboutwe-main3 .aboutwe-main3-son .zhuangtu {
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+}
+.aboutwe-main4 {
+  height: 574px;
+  background: #f5f8fa;
+}
+.aboutwe-main4 .aboutwe-main4-son {
+  padding: 60px 0;
+  height: 100%;
+}
+.aboutwe-main4 .aboutwe-main4-son ul {
+  margin-top: 40px; padding-left:0px; padding-right:0px;
+}
+.aboutwe-main4 .aboutwe-main4-son ul li {
+  float: left;
+  width: 285px;
+  height: 337px;
+  background-color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 1px rgba(132, 132, 132, 0.2);
+}
+.aboutwe-main4 .aboutwe-main4-son ul li h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: normal;
+  margin-top: 20px;
+}
+.aboutwe-main4 .aboutwe-main4-son ul li p {
+  font-size: 14px;
+  color: #999;
+  margin-top: 20px;
+  padding: 0 15px;
+}
+.aboutwe-main4 .aboutwe-main4-son ul .aboutwe-main4-son1 {
+  margin-left: 0;
+}
+.aboutwe-main5 {
+  
+  background-color: #fff;
+  overflow: hidden;
+}
+.aboutwe-main5 .aboutwe-main5-son {
+  height: 100%;
+  padding: 60px 0;
+  overflow: hidden;
+}
+.aboutwe-main5 .aboutwe-main5-son .biaoti2 p {
+  color: #999;
+}
+.aboutwe-main5 .aboutwe-main5-son .gszz {
+  margin-top: 40px;
+}
+.aboutwe-main5 .aboutwe-main5-son .gszz li {
+  float: left;
+  width: 390px;
+  height: 360px;
+  margin-left: 14px;
+  position: relative;
+}
+.aboutwe-main5 .aboutwe-main5-son .gszz li img {
+  border: none;
+}
+.aboutwe-main5 .aboutwe-main5-son .gszz .gszz-son1 {
+  margin-left: 0;
+}
+.gszz-son1-son2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,.3);
+  height: 80px;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  width: 100%;
+  display: none;
+}
+.aboutwe-main5 .aboutwe-main5-son .gszz li:hover .gszz-son1-son2{
+    display: block;
+}
+.aboutwe-main6 {
+  height: 500px;
+  width: 100%;
+  background: url(../image/index20160806img1.jpg) no-repeat center center;
+}
+.aboutwe-main6 .aboutwe-main6-son {
+  height: 100%;
+  position: relative;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right {
+  width: 300px;
+  height: 400px;
+  background: rgba(43, 55, 61, 0.7);
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul {
+  color: #fff;
+  text-align: left;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li {
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 0 30px;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li span {
+  display: block;
+  width: 190px;
+  float: right;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li:nth-child(2) {
+  margin-top: 35px;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li:nth-child(1) {
+  margin: 0;
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #626262;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li:nth-child(1) h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.aboutwe-main6 .aboutwe-main6-son .aboutwe-main6-right ul li:nth-child(1) h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) 
+{
+    .aboutwe-main6-son {width:100%; 
+    }
+    .aboutwe-main1 { height:60px;background-size:100%;
+    }
+    .aboutwe-main3 img { display:none;
+    }
+    .gsjj { display:none;
+    }
+    .aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right {
+  width: 100%; float:none;margin:auto;
+}
+        .aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right h2 { text-align:center;
+        }
+        .aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right .p1 { padding-left:20px; padding-right:20px;
+        }
+        .aboutwe-main3 .aboutwe-main3-son .aboutwe-main3-right .p2 { padding-left:20px; padding-right:20px;
+        }
+    .aboutwe-main3-left { display:none;
+    }
+    .zhuangtu{ display:none;
+    }
+    .aboutwe-main4 { height:auto; width:100%; float:left;
+    }
+    .biaoti2 {float:left;width:100%;
+    }
+    .aboutwe-main4 ul{width:100%; float:left; 
+    }
+  .aboutwe-main4 .aboutwe-main4-son ul li { width:45%; margin-top:10px; float:left; margin-left:3%; height:280px;
+    }
+    .aboutwe-main4 .aboutwe-main4-son ul .aboutwe-main4-son1 {
+ margin-left:3%;
+}
+}
